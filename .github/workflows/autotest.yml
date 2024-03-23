@@ -18,3 +18,8 @@ jobs:
         run: python find_lowest_number.py test_data/test2_input.txt test2_expected.txt
       - name: Test 2
         run: diff test_data/test2_expected.txt test2_expected.txt
+      - name: Produce Test 3 Output
+        run: python find_lowest_number.py test_data/test3_input.txt test3_expected.txt
+      - name: Test 3
+        run: diff test_data/test3_expected.txt test3_expected.txt
+
